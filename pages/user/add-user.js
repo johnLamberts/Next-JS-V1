@@ -1,7 +1,6 @@
 
 import { useState } from 'react';
 import axios from 'axios';
-import { async } from '@firebase/util';
 
 export default function AddUser() {
     const [name, setName] = useState('')
